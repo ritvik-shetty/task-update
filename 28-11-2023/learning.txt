@@ -1,0 +1,14 @@
+. Explored gorest for API requests to test.
+
+. Implemented Auhtorization(using Oauth token) request in
+	 Postman
+	 Automated the the process using python (IDE:VSCode)
+
+. Implemented Passing Parameters in URL 
+	 Postman
+	 Automated the the process using python (IDE:VSCode)
+
+. Implemented Passing Json payload form an external json file:
+	 Automated the the process using python (IDE:VSCode)
+     
+. Implemented the pytest framework to test a small code sample     
