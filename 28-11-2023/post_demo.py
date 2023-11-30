@@ -17,5 +17,7 @@ json_payload=json.load(json_file)
 
 response=requests.post(url=base_url+'api/users',headers=head, json=json_payload)
 
-print(response.status_code)
+assert response.status_code==201 , f"expected response to have status code 201 but got {response.status_code}"
 print(response.text)
+print("The program has run successfully and the Status Code is",response.status_code)
+
