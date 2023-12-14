@@ -1,0 +1,6 @@
+2023-12-14 16:42:02,550,root:ERROR:Exception Occurred:19672:25
+Traceback (most recent call last):
+  File "C:\Users\107497\Desktop\Python\December\14-12-2023\log_exception.py", line 19, in <module>
+    age=int(input("Enter your age"))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: invalid literal for int() with base 10: 'dd'

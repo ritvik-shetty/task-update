@@ -1,0 +1,15 @@
+root:DEBUG:This is the debug message:24688:5
+root:INFO:Module 2 is completed:24688:6
+root:WARNING:This is the warning message:24688:7
+root:ERROR:This is the error message:24688:8
+root:CRITICAL:This is CRITCAL:24688:9
+2023-12-14 12:45:24,666,root:DEBUG:This is the debug message:26428:5
+2023-12-14 12:45:24,666,root:INFO:Module 2 is completed:26428:6
+2023-12-14 12:45:24,667,root:WARNING:This is the warning message:26428:7
+2023-12-14 12:45:24,667,root:ERROR:This is the error message:26428:8
+2023-12-14 12:45:24,667,root:CRITICAL:This is CRITCAL:26428:9
+2023-12-14 14:26:32,510,root:DEBUG:This is the debug message:17640:5
+2023-12-14 14:26:32,510,root:INFO:Module 2 is completed:17640:6
+2023-12-14 14:26:32,510,root:WARNING:This is the warning message:17640:7
+2023-12-14 14:26:32,510,root:ERROR:This is the error message:17640:8
+2023-12-14 14:26:32,510,root:CRITICAL:This is CRITCAL:17640:9

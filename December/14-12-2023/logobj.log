@@ -1,0 +1,11 @@
+2023-12-14 14:45:45,956,root:INFO:Created the logger object:25392:7
+2023-12-14 14:45:45,956,root:ERROR:ERRROR:25392:8
+2023-12-14 14:46:11,066,root:ERROR:ERRROR:21720:8
+2023-12-14 14:48:48,278,Ritvik:INFO:Created the logger object:1240:7
+2023-12-14 14:48:48,278,Ritvik:ERROR:ERRROR:1240:8
+2023-12-14 14:49:46,477,.\loggerobject.py:INFO:Created the logger object:10488:8
+2023-12-14 14:49:46,477,.\loggerobject.py:ERROR:ERRROR:10488:9
+2023-12-14 14:50:14,494,__main__:INFO:Created the logger object:3916:9
+2023-12-14 14:50:14,494,__main__:ERROR:ERRROR:3916:10
+2023-12-14 14:52:17,845,__main__:INFO:Created the logger object:26132:9
+2023-12-14 14:52:17,845,__main__:ERROR:ERRROR:26132:10
