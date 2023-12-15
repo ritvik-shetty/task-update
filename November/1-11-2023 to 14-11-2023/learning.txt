@@ -1,0 +1,10 @@
+I have gone through python topics :
+
+	Modules 
+	Variables and Data types
+	Strings, Lists and Tuples,
+ 	Dictionary and sets,
+ 	Conditional expressions, 
+	Loops 
+ 	Functions
+	OOPS

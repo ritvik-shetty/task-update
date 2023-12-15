@@ -1,0 +1,26 @@
+. Explored SwaggerUI for API requests to test.
+
+
+. Implemented GET request in
+	 SwaggerUI
+	 Postman
+	 Automated the GET request using python (IDE:VSCode)
+
+
+. Implemented POST request in
+	 SwaggerUI
+	 Postman
+	 Automated the POST request using python (IDE:VSCode)
+
+
+. Implemented PUT request in
+	 SwaggerUI
+	 Postman
+	 Automated the PUT request using python (IDE:VSCode)
+
+
+. Implemented DELETE request in
+	 SwaggerUI
+	 Postman
+	 Automated the DELETE request using python (IDE:VSCode)
+
