@@ -1,0 +1,15 @@
+2023-12-15 11:10:46,340 - INFO -  * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\15-12-2023\\server.py', reloading
+2023-12-15 11:10:46,935 - WARNING -  * Debugger is active!
+2023-12-15 11:10:46,938 - INFO -  * Debugger PIN: 197-174-426
+2023-12-15 11:10:46,956 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-12-15 11:10:53,266 - INFO - User visited the index page
+2023-12-15 11:10:53,266 - INFO - 127.0.0.1 - - [15/Dec/2023 11:10:53] "[37mGET / HTTP/1.1[0m" 200 -
+2023-12-15 11:10:53,446 - INFO - User visited the index page
+2023-12-15 11:10:53,447 - INFO - 127.0.0.1 - - [15/Dec/2023 11:10:53] "[37mGET / HTTP/1.1[0m" 200 -
+2023-12-15 11:10:53,598 - INFO - User visited the index page
+2023-12-15 11:10:53,598 - INFO - 127.0.0.1 - - [15/Dec/2023 11:10:53] "[37mGET / HTTP/1.1[0m" 200 -
+2023-12-15 11:11:45,441 - INFO -  * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\15-12-2023\\server.py', reloading
+2023-12-15 11:11:45,990 - werkzeug - WARNING -  * Debugger is active!
+2023-12-15 11:11:45,998 - werkzeug - INFO -  * Debugger PIN: 197-174-426
+2023-12-15 11:11:46,028 - werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2023-12-15 11:16:08,122 - werkzeug - INFO -  * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\15-12-2023\\server.py', reloading
