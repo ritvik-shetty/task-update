@@ -1,0 +1,646 @@
+2023-12-27 10:11:56,341,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-27 10:11:56,341,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2023-12-27 10:11:56,347,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:11:56,905,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:11:56,917,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:12:00,803,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:12:00] "[33mGET / HTTP/1.1[0m" 404 -
+2023-12-27 10:12:02,675,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:12:02] "[33mGET /login HTTP/1.1[0m" 404 -
+2023-12-27 10:12:02,936,app:INFO:User requested a GET request
+2023-12-27 10:12:02,936,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:12:02,936,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:12:02] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:13:07,843,app:INFO:User requested a GET request
+2023-12-27 10:13:07,843,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:13:07,844,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:13:07] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:16:12,762,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-27 10:16:12,762,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2023-12-27 10:16:12,775,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:16:13,267,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:16:13,281,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:16:16,654,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:16] "[33mGET / HTTP/1.1[0m" 404 -
+2023-12-27 10:16:19,062,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:19] "[33mGET /login HTTP/1.1[0m" 404 -
+2023-12-27 10:16:19,327,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:16:19,327,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:19] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:16:29,181,app:INFO:User requested a POST request
+2023-12-27 10:16:29,348,app:INFO:Data put sucessfully into the database
+2023-12-27 10:16:29,349,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:29] "[35m[1mPOST /employee HTTP/1.1[0m" 201 -
+2023-12-27 10:16:33,499,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:16:33,499,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:33] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:16:46,164,app:INFO:User requested a PUT request for employee-id:6 
+2023-12-27 10:16:46,339,app:INFO:Data updated sucessfully into the database
+2023-12-27 10:16:46,339,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:46] "PUT /employee/6 HTTP/1.1" 200 -
+2023-12-27 10:16:52,678,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:16:52,678,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:52] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:16:58,990,app:INFO:User requested a DELETE request for employee-id:6
+2023-12-27 10:16:59,163,app:INFO:Data deleted sucessfully from the database
+2023-12-27 10:16:59,163,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:16:59] "DELETE /del_employee/6 HTTP/1.1" 200 -
+2023-12-27 10:17:02,665,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:17:02,665,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:17:02] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:27:36,063,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:27:36] "[33mGET / HTTP/1.1[0m" 404 -
+2023-12-27 10:32:06,529,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-27 10:32:06,529,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2023-12-27 10:32:06,539,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:32:07,043,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:32:07,053,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:32:20,616,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:20] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 10:32:20,926,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:20] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 10:32:20,942,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:20] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 10:32:20,952,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:20] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 10:32:20,966,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:20] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 10:32:21,118,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:21] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 10:32:28,409,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:32:28,409,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:32:28] "GET /employee HTTP/1.1" 200 -
+2023-12-27 10:40:55,142,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 10:40:55,202,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:40:55,880,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:40:55,891,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:41:11,216,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 10:41:11,422,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 10:41:11,432,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 10:41:11,454,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 10:41:11,460,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 10:41:11,521,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 10:41:11,522,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:11] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 10:41:15,848,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:41:15,848,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:41:15] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 10:43:13,804,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:13] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 10:43:13,820,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:13] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 10:43:13,825,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:13] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 10:43:13,826,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:13] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 10:43:13,826,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:13] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 10:43:14,038,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:14] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 10:43:14,045,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:43:14] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 10:44:42,869,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:44:42,869,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:44:42] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 10:48:13,473,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 10:48:13,505,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:48:14,174,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:48:14,190,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:48:40,435,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 10:48:40,478,werkzeug:INFO: * Restarting with stat
+2023-12-27 10:48:41,049,werkzeug:WARNING: * Debugger is active!
+2023-12-27 10:48:41,070,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 10:48:51,610,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:51] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 10:48:51,906,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:51] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 10:48:51,916,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:51] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 10:48:51,973,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:51] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 10:48:51,982,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:51] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 10:48:52,162,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:52] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 10:48:52,166,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:48:52] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 10:49:18,334,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:49:18,334,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:49:18] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 10:49:59,642,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:49:59,642,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:49:59] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 10:50:04,750,app:INFO:User requested a POST request
+2023-12-27 10:50:05,269,app:INFO:Data put sucessfully into the database
+2023-12-27 10:50:05,271,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:50:05] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 10:50:09,361,app:INFO:Data fetched sucessfully from the database
+2023-12-27 10:50:09,361,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 10:50:09] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:35:41,472,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:35:41,558,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:35:42,543,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:35:42,550,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:35:48,356,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:35:48,548,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:35:48,558,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:35:48,579,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:35:48,641,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:35:48,739,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 11:35:48,926,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:48] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:35:56,433,app:INFO:User requested a POST request
+2023-12-27 11:35:56,558,app:INFO:Data put sucessfully into the database
+2023-12-27 11:35:56,558,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:35:56] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 11:36:50,972,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:36:51,013,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:36:51,542,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:36:51,559,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:37:05,251,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:37:05,251,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:37:05] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:37:15,221,app:INFO:User requested a DELETE request for employee-id:7
+2023-12-27 11:37:15,351,app:INFO:Data deleted sucessfully from the database
+2023-12-27 11:37:15,352,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:37:15] "DELETE /del_employee/7 HTTP/1.1" 200 -
+2023-12-27 11:37:21,667,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:37:21,667,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:37:21] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:37:33,985,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:37:33,987,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:37:33] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:38:10,269,app:INFO:User requested a POST request
+2023-12-27 11:38:10,372,app:INFO:Data put sucessfully into the database
+2023-12-27 11:38:10,374,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:38:10] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 11:38:26,761,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:38:26,761,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:38:26] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:39:05,602,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:05] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:39:05,825,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:05] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:39:05,909,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:05] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:39:05,966,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:05] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:39:05,969,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:05] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:39:06,145,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:06] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:39:06,154,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:39:06] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:46:25,809,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:46:25,865,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:46:26,505,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:46:26,526,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:46:34,965,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:34] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:46:35,141,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:46:35,191,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:46:35,202,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:46:35,202,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:46:35,282,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:46:35,282,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:46:35] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:47:22,697,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:47:22,764,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:47:23,599,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:47:23,615,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:47:24,941,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:24] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:47:25,133,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:47:25,159,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:47:25,176,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:47:25,179,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:47:25,297,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:47:25,300,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:25] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:47:47,376,app:INFO:User requested a GET request for employee-id:2 
+2023-12-27 11:47:47,376,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:47:47,376,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:47] "GET /employee/2 HTTP/1.1" 200 -
+2023-12-27 11:47:56,419,app:INFO:User requested a GET request for employee-id:99 
+2023-12-27 11:47:56,419,app:INFO:Employee not found in the database
+2023-12-27 11:47:56,419,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:47:56] "[33mGET /employee/99 HTTP/1.1[0m" 404 -
+2023-12-27 11:49:32,869,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:49:32,889,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:49:32,893,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:49:32,893,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:49:32,894,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:49:32,969,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:49:32,987,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:49:32] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:50:34,786,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:50:34,793,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:50:34,808,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:50:34,809,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:50:34,811,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:50:34,877,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:50:34,881,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:34] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:50:41,332,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:50:41,332,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:50:41] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 11:51:00,097,app:INFO:User requested a GET request for employee-id:5 
+2023-12-27 11:51:00,097,app:INFO:Data fetched sucessfully from the database
+2023-12-27 11:51:00,097,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:00] "GET /employee/5 HTTP/1.1" 200 -
+2023-12-27 11:51:46,660,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:51:46,708,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:51:47,389,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:51:47,404,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:51:49,624,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:51:49,816,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:51:49,831,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:51:49,845,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:51:49,845,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:51:49,923,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:51:49,932,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:49] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 11:51:54,453,app:INFO:User requested a POST request
+2023-12-27 11:51:54,455,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:51:54] "[31m[1mPOST /postemployee HTTP/1.1[0m" 415 -
+2023-12-27 11:59:48,583,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 11:59:48,631,werkzeug:INFO: * Restarting with stat
+2023-12-27 11:59:49,168,werkzeug:WARNING: * Debugger is active!
+2023-12-27 11:59:49,168,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 11:59:55,456,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 11:59:55,662,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 11:59:55,666,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 11:59:55,676,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 11:59:55,683,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 11:59:55,733,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 11:59:55,741,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 11:59:55] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:00:29,771,app:INFO:User requested a POST request
+2023-12-27 12:00:29,920,app:INFO:Data put sucessfully into the database
+2023-12-27 12:00:29,922,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:00:29] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 12:00:48,340,app:INFO:Data fetched sucessfully from the database
+2023-12-27 12:00:48,340,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:00:48] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 12:13:30,478,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:13:30,538,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:13:31,037,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:13:31,046,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:13:50,831,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:50] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:13:51,040,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:13:51,058,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:13:51,061,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:13:51,069,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:13:51,299,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:13:51,311,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:13:51] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:13:57,085,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:13:57,109,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:13:57,627,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:13:57,640,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:14:00,679,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:14:00,736,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:14:01,340,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:14:01,340,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:14:02,086,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:14:02,243,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:14:02,276,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:14:02,294,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:14:02,307,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:14:02,415,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:14:02,418,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:14:02] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:16:04,750,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:16:04,815,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:16:05,431,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:16:05,444,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:16:08,723,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:08] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:16:08,957,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:08] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:16:08,970,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:08] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:16:08,977,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:08] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:16:08,987,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:08] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:16:09,069,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:09] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:16:09,073,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:09] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:16:14,851,app:INFO:Data fetched sucessfully from the database
+2023-12-27 12:16:14,851,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:16:14] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 12:18:08,173,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:18:08,234,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:18:08,801,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:18:08,811,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:18:11,853,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:11] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:18:12,061,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:18:12,070,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:18:12,077,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:18:12,077,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:18:12,149,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:18:12,154,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:18:12] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:22:29,721,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:22:29,762,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:22:30,212,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:22:30,234,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:22:40,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:22:40,337,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:22:40,348,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:22:40,355,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:22:40,361,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:22:40,414,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:22:40,417,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:40] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:22:53,026,app:INFO:Data fetched sucessfully from the database
+2023-12-27 12:22:53,027,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:22:53] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 12:24:54,525,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:24:54,561,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:24:55,107,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:24:55,112,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:24:59,477,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:24:59,653,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:24:59,694,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:24:59,700,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:24:59,715,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:24:59,794,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:24:59] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:25:00,001,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:00] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:25:41,310,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:25:41,364,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:25:41,962,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:25:41,976,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:25:44,562,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:25:44,744,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:25:44,749,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:25:44,781,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:25:44,781,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:25:44,861,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:25:44,866,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:25:44] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:27:01,679,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:27:01,740,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:27:02,417,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:27:02,430,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:27:03,672,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:27:03,857,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:27:03,888,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:27:03,895,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:27:03,903,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:27:03,981,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:27:03,981,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:27:03] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:28:16,487,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:28:16,521,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:28:17,022,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:28:17,031,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:31:23,572,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:31:23,617,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:31:24,065,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:31:24,077,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:31:28,646,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:31:28,845,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:31:28,845,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:31:28,863,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:31:28,877,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:31:28,937,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:31:28,941,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:31:28] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:43:03,130,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:43:03,148,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:43:03,151,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:43:03,152,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:43:03,153,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:43:03,214,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:43:03,219,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:43:03] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:44:15,623,app:INFO:User requested a DELETE request for employee-id:8
+2023-12-27 12:44:15,971,app:INFO:Data deleted sucessfully from the database
+2023-12-27 12:44:15,973,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:44:15] "DELETE /employee/8 HTTP/1.1" 200 -
+2023-12-27 12:44:34,767,app:INFO:Data fetched sucessfully from the database
+2023-12-27 12:44:34,767,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:44:34] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 12:45:02,956,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:02] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:45:02,978,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:02] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:45:02,979,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:02] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:45:02,979,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:02] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:45:02,985,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:02] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:45:03,216,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:03] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:45:03,220,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:45:03] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:46:47,735,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:46:47,751,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:46:47,756,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:46:47,758,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:46:47,758,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:46:47,851,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:46:47,856,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:46:47] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,623,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:53:23,647,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,652,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,653,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,653,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,714,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 12:53:23,717,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:53:23] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:55:42,259,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:55:42,289,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:55:42,293,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:55:42,293,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:55:42,293,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:55:42,367,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:55:42,370,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:55:42] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 12:58:18,123,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 12:58:18,171,werkzeug:INFO: * Restarting with stat
+2023-12-27 12:58:18,853,werkzeug:WARNING: * Debugger is active!
+2023-12-27 12:58:18,870,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 12:58:21,208,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 12:58:21,386,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 12:58:21,396,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 12:58:21,417,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 12:58:21,432,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 12:58:21,486,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 12:58:21,493,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 12:58:21] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:00:18,552,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:00:18,571,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:00:18,573,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:00:18,575,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:00:18,575,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:00:18,697,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:00:18,697,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:18] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:00:39,951,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:00:39,952,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:00:39] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 13:03:01,543,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:03:01,587,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:03:02,250,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:03:02,264,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:03:03,724,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:03] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:03:03,915,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:03] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:03:03,921,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:03] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:03:03,938,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:03] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:03:03,954,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:03] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:03:04,080,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:04] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:03:04,085,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:03:04] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:04:29,133,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:04:29,241,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:04:29,905,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:04:29,926,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:04:31,320,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:04:31,496,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:04:31,512,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:04:31,526,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:04:31,542,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:04:31,612,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:04:31,624,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:04:31] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:05:59,420,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:05:59,477,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:06:00,138,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:06:00,155,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:06:06,186,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:06:06,356,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:06:06,388,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:06:06,393,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:06:06,404,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:06:06,464,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:06:06,465,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:06:06] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,499,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:07:16,517,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,523,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,524,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,524,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,592,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 13:07:16,594,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:07:16] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:12:48,979,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:12:49,044,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:12:49,732,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:12:49,738,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:12:50,588,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:12:50,778,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:12:50,809,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:12:50,811,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:12:50,811,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:12:50,890,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:12:50,900,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:12:50] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:17:15,628,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:17:15,708,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:17:16,542,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:17:16,556,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:17:17,219,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:17:17,422,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:17:17,432,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:17:17,438,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:17:17,446,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:17:17,536,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:17:17,542,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:17] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:17:24,745,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:17:24,745,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:24] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 13:17:42,183,app:INFO:User requested a POST request
+2023-12-27 13:17:42,286,app:INFO:Data put sucessfully into the database
+2023-12-27 13:17:42,288,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:42] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 13:17:53,833,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:17:53,833,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:17:53] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 13:18:09,944,app:INFO:User requested a GET request for employee-id:9 
+2023-12-27 13:18:09,945,app:INFO:Employee not found in the database
+2023-12-27 13:18:09,945,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:18:09] "[33mGET /employee/9 HTTP/1.1[0m" 404 -
+2023-12-27 13:18:14,324,app:INFO:User requested a GET request for employee-id:8 
+2023-12-27 13:18:14,324,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:18:14,324,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:18:14] "GET /employee/8 HTTP/1.1" 200 -
+2023-12-27 13:18:55,228,app:INFO:User requested a DELETE request for employee-id:222
+2023-12-27 13:18:55,230,app:INFO:Data is not present in the database
+2023-12-27 13:18:55,231,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:18:55] "[33mDELETE /employee/222 HTTP/1.1[0m" 404 -
+2023-12-27 13:19:11,476,app:INFO:User requested a DELETE request for employee-id:8
+2023-12-27 13:19:11,637,app:INFO:Data deleted sucessfully from the database
+2023-12-27 13:19:11,637,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:19:11] "DELETE /employee/8 HTTP/1.1" 200 -
+2023-12-27 13:19:16,987,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:19:16,988,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:19:16] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 13:22:00,375,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 13:22:00,468,werkzeug:INFO: * Restarting with stat
+2023-12-27 13:22:01,058,werkzeug:WARNING: * Debugger is active!
+2023-12-27 13:22:01,071,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 13:22:01,504,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:22:01,713,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:22:01,726,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:22:01,738,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:22:01,755,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:22:01,995,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:01] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 13:22:02,000,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,140,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 13:22:02,198,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,202,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,204,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,207,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,285,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 13:22:02,288,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:02] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 13:22:09,553,app:INFO:User requested a POST request
+2023-12-27 13:22:09,706,app:INFO:Data put sucessfully into the database
+2023-12-27 13:22:09,706,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:09] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 13:22:18,470,app:INFO:Data fetched sucessfully from the database
+2023-12-27 13:22:18,471,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:18] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 13:22:29,900,app:INFO:User requested a DELETE request for employee-id:8
+2023-12-27 13:22:30,104,app:INFO:Data deleted sucessfully from the database
+2023-12-27 13:22:30,105,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:30] "DELETE /employee/8 HTTP/1.1" 200 -
+2023-12-27 13:22:36,689,app:INFO:User requested a DELETE request for employee-id:8
+2023-12-27 13:22:36,690,app:INFO:Data is not present in the database
+2023-12-27 13:22:36,691,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 13:22:36] "[33mDELETE /employee/8 HTTP/1.1[0m" 404 -
+2023-12-27 14:19:09,535,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:19:09,562,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:19:09,562,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:19:09,563,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:19:09,565,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:19:09,715,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 14:19:09,722,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:09] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,394,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:19:30,410,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,414,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,414,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,415,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,507,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 14:19:30,512,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:30] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:19:43,041,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:19:43,041,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:43] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:19:52,313,app:INFO:User requested a DELETE request for employee-id:7
+2023-12-27 14:19:52,455,app:INFO:Data deleted sucessfully from the database
+2023-12-27 14:19:52,455,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:19:52] "DELETE /employee/7 HTTP/1.1" 200 -
+2023-12-27 14:20:01,917,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:20:01,917,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:20:01] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:21:09,105,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:21:09,132,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:21:09,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:21:09,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:21:09,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:21:09,223,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 14:21:09,228,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:09] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:21:43,879,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:21:43,897,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:21:43,899,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:21:43,900,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:21:43,902,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:21:43,967,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 14:21:43,970,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:21:43] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:23:16,384,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:23:16,417,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:23:16,421,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:23:16,421,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:23:16,421,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:23:16,515,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 14:23:16,518,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:16] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:23:18,971,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:18] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:23:18,988,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:18] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:23:18,992,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:18] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:23:18,992,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:18] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:23:18,992,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:18] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:23:19,064,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:19] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 14:23:19,071,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:23:19] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:32:46,115,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:32:46] "[33mGET /employee HTTP/1.1[0m" 404 -
+2023-12-27 14:32:51,019,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:32:51] "[33mGET /employee HTTP/1.1[0m" 404 -
+2023-12-27 14:32:55,578,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:32:55] "[33mGET /geemployee HTTP/1.1[0m" 404 -
+2023-12-27 14:33:05,121,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:33:05,121,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:33:05] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:58:41,919,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:58:41,919,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:58:41] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:59:06,502,app:INFO:User requested a PUT request for employee-id:1 
+2023-12-27 14:59:06,830,app:INFO:Data updated sucessfully into the database
+2023-12-27 14:59:06,830,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:06] "PUT /employee/1 HTTP/1.1" 200 -
+2023-12-27 14:59:11,762,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:59:11,762,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:11] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:59:20,111,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 14:59:20,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 14:59:20,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 14:59:20,135,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 14:59:20,139,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 14:59:20,374,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /static/swagger.json HTTP/1.1[0m" 304 -
+2023-12-27 14:59:20,382,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:20] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 14:59:27,415,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:59:27,415,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:27] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 14:59:45,951,app:INFO:User requested a GET request for employee-id:1 
+2023-12-27 14:59:45,953,app:INFO:Data fetched sucessfully from the database
+2023-12-27 14:59:45,954,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 14:59:45] "GET /employee/1 HTTP/1.1" 200 -
+2023-12-27 15:00:37,294,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:00:37,374,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:00:37,981,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:00:37,997,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:00:42,471,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:00:42,522,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:00:42,966,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:00:42,984,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:00:48,545,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:00:48,601,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:00:49,679,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:00:49,695,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:00:50,511,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 15:00:50,660,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 15:00:50,712,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 15:00:50,724,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 15:00:50,735,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 15:00:50,814,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 15:00:50,820,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:50] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 15:00:55,615,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:00:55] "[33mPUT /employee/w HTTP/1.1[0m" 404 -
+2023-12-27 15:01:03,278,app:INFO:User requested a PUT request for employee-id:1 
+2023-12-27 15:01:03,279,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:01:03] "[31m[1mPUT /employee/1 HTTP/1.1[0m" 415 -
+2023-12-27 15:01:23,439,app:INFO:User requested a PUT request for employee-id:1 
+2023-12-27 15:01:23,439,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:01:23] "[31m[1mPUT /employee/1 HTTP/1.1[0m" 415 -
+2023-12-27 15:02:38,588,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:02:38,638,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:02:39,116,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:02:39,126,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:05:06,846,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:05:06,892,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:05:07,407,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:05:07,418,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:05:09,126,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:05:09,194,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:05:09,723,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:05:09,725,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:05:10,756,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:10] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 15:05:10,925,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:10] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 15:05:10,975,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:10] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 15:05:10,989,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:10] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 15:05:10,993,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:10] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 15:05:11,070,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:11] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 15:05:11,072,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:05:11] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 15:07:25,357,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:07:25,399,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:07:25,842,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:07:25,856,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:07:28,012,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "GET /swagger/ HTTP/1.1" 200 -
+2023-12-27 15:07:28,193,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2023-12-27 15:07:28,205,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2023-12-27 15:07:28,219,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2023-12-27 15:07:28,234,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2023-12-27 15:07:28,291,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "GET /static/swagger.json HTTP/1.1" 200 -
+2023-12-27 15:07:28,291,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:28] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2023-12-27 15:07:40,906,app:INFO:User requested a PUT request for employee-id:7 
+2023-12-27 15:07:40,908,app:INFO:Data is not present in the database
+2023-12-27 15:07:40,908,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:07:40] "[33mPUT /putemployee/7 HTTP/1.1[0m" 404 -
+2023-12-27 15:07:59,832,app:INFO:User requested a POST request
+2023-12-27 15:08:00,419,app:INFO:Data put sucessfully into the database
+2023-12-27 15:08:00,419,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:08:00] "[35m[1mPOST /postemployee HTTP/1.1[0m" 201 -
+2023-12-27 15:08:09,037,app:INFO:Data fetched sucessfully from the database
+2023-12-27 15:08:09,037,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:08:09] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 15:09:11,017,app:INFO:User requested a PUT request for employee-id:7 
+2023-12-27 15:09:11,100,app:INFO:Data updated sucessfully into the database
+2023-12-27 15:09:11,102,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:09:11] "PUT /putemployee/7 HTTP/1.1" 200 -
+2023-12-27 15:09:52,981,app:INFO:Data fetched sucessfully from the database
+2023-12-27 15:09:52,981,werkzeug:INFO:127.0.0.1 - - [27/Dec/2023 15:09:52] "GET /getemployee HTTP/1.1" 200 -
+2023-12-27 15:11:59,475,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:11:59,507,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:11:59,973,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:11:59,982,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-27 15:12:08,146,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\27-12-2023\\app.py', reloading
+2023-12-27 15:12:08,175,werkzeug:INFO: * Restarting with stat
+2023-12-27 15:12:09,139,werkzeug:WARNING: * Debugger is active!
+2023-12-27 15:12:09,153,werkzeug:INFO: * Debugger PIN: 325-372-629

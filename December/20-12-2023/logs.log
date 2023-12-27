@@ -1,0 +1,110 @@
+2023-12-20 10:26:59,721,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-20 10:26:59,721,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2023-12-20 10:26:59,735,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:27:00,277,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:27:00,291,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:27:10,946,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:27:10,946,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:27:10] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:27:22,428,application:INFO:User requested a PUT request for employee-id:1 
+2023-12-20 10:27:23,125,application:INFO:Data updated sucessfully into the database
+2023-12-20 10:27:23,125,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:27:23] "PUT /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:27:34,091,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:27:34,091,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:27:34] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:28:20,959,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:28:21,024,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:28:21,616,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:28:21,625,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:28:41,929,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:28:41,979,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:28:42,510,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:28:42,516,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:28:57,047,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:28:57,063,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:28:57] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:29:05,101,application:INFO:User requested a GET request for employee-id:5 
+2023-12-20 10:29:05,102,application:INFO:Employee not found in the database
+2023-12-20 10:29:05,102,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:05] "[33mGET /employee/5 HTTP/1.1[0m" 404 -
+2023-12-20 10:29:09,189,application:INFO:User requested a GET request for employee-id:1 
+2023-12-20 10:29:09,189,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:29:09,189,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:09] "GET /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:29:15,751,application:INFO:User requested a GET request for employee-id:1 
+2023-12-20 10:29:15,752,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:29:15,752,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:15] "GET /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:29:28,064,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:29:28,113,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:29:28,698,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:29:28,714,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:29:32,585,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:32] "[35m[1mGET /employee/1 HTTP/1.1[0m" 500 -
+2023-12-20 10:29:36,876,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:36] "[35m[1mGET /employee/1 HTTP/1.1[0m" 500 -
+2023-12-20 10:29:38,072,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:38] "[35m[1mGET /employee/1 HTTP/1.1[0m" 500 -
+2023-12-20 10:29:39,653,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:39] "[35m[1mGET /employee/1 HTTP/1.1[0m" 500 -
+2023-12-20 10:29:45,090,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:29:45,164,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:29:45,772,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:29:45,783,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:29:47,990,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:47] "[31m[1mGET /employee/1 HTTP/1.1[0m" 401 -
+2023-12-20 10:29:51,473,application:INFO:User requested a GET request for employee-id:1 
+2023-12-20 10:29:51,474,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:29:51,474,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:29:51] "GET /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:32:40,180,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:32:40,222,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:32:40,770,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:32:40,781,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:32:47,417,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 10:32:47,468,werkzeug:INFO: * Restarting with stat
+2023-12-20 10:32:48,042,werkzeug:WARNING: * Debugger is active!
+2023-12-20 10:32:48,046,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 10:32:52,899,application:INFO:User requested a GET request for employee-id:1 
+2023-12-20 10:32:52,899,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:32:52,899,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:32:52] "GET /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:32:56,183,application:INFO:User requested a GET request for employee-id:2 
+2023-12-20 10:32:56,184,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:32:56,184,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:32:56] "GET /employee/2 HTTP/1.1" 200 -
+2023-12-20 10:33:00,558,application:INFO:User requested a GET request for employee-id:3 
+2023-12-20 10:33:00,559,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:33:00,559,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:00] "GET /employee/3 HTTP/1.1" 200 -
+2023-12-20 10:33:04,569,application:INFO:User requested a GET request for employee-id:4 
+2023-12-20 10:33:04,570,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:33:04,570,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:04] "GET /employee/4 HTTP/1.1" 200 -
+2023-12-20 10:33:08,656,application:INFO:User requested a GET request for employee-id:5 
+2023-12-20 10:33:08,657,application:INFO:Employee not found in the database
+2023-12-20 10:33:08,657,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:08] "[33mGET /employee/5 HTTP/1.1[0m" 404 -
+2023-12-20 10:33:12,716,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:33:12,717,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:12] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:33:16,816,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:33:16,817,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:16] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:33:37,506,application:INFO:User requested a PUT request for employee-id:1 
+2023-12-20 10:33:37,611,application:INFO:Data updated sucessfully into the database
+2023-12-20 10:33:37,612,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:37] "PUT /employee/1 HTTP/1.1" 200 -
+2023-12-20 10:33:44,155,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:33:44,155,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:33:44] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:34:09,480,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:34:09] "[31m[1mDELETE /del_employee/6 HTTP/1.1[0m" 401 -
+2023-12-20 10:34:46,620,application:INFO:User requested a DELETE request for employee-id:6
+2023-12-20 10:34:46,621,application:INFO:Data is not present in the database
+2023-12-20 10:34:46,621,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:34:46] "[33mDELETE /del_employee/6 HTTP/1.1[0m" 404 -
+2023-12-20 10:34:51,669,application:INFO:User requested a DELETE request for employee-id:4
+2023-12-20 10:34:51,748,application:INFO:Data deleted sucessfully from the database
+2023-12-20 10:34:51,748,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:34:51] "DELETE /del_employee/4 HTTP/1.1" 200 -
+2023-12-20 10:34:55,713,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:34:55,713,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:34:55] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:35:02,460,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:35:02,460,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:02] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:35:07,149,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:07] "[31m[1mPOST /employee HTTP/1.1[0m" 401 -
+2023-12-20 10:35:18,194,application:INFO:User requested a POST request
+2023-12-20 10:35:18,527,application:INFO:Data put sucessfully into the database
+2023-12-20 10:35:18,528,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:18] "[35m[1mPOST /employee HTTP/1.1[0m" 201 -
+2023-12-20 10:35:23,035,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:35:23,035,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:23] "GET /employee HTTP/1.1" 200 -
+2023-12-20 10:35:34,771,application:INFO:User requested a DELETE request for employee-id:4
+2023-12-20 10:35:34,864,application:INFO:Data deleted sucessfully from the database
+2023-12-20 10:35:34,865,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:34] "DELETE /del_employee/4 HTTP/1.1" 200 -
+2023-12-20 10:35:38,024,application:INFO:Data fetched sucessfully from the database
+2023-12-20 10:35:38,024,werkzeug:INFO:127.0.0.1 - - [20/Dec/2023 10:35:38] "GET /employee HTTP/1.1" 200 -
+2023-12-20 11:05:21,028,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 11:05:21,059,werkzeug:INFO: * Restarting with stat
+2023-12-20 11:05:21,627,werkzeug:WARNING: * Debugger is active!
+2023-12-20 11:05:21,636,werkzeug:INFO: * Debugger PIN: 325-372-629
+2023-12-20 11:56:16,044,werkzeug:INFO: * Detected change in 'C:\\Users\\107497\\Desktop\\Python\\December\\20-12-2023\\application.py', reloading
+2023-12-20 11:56:16,093,werkzeug:INFO: * Restarting with stat
+2023-12-20 11:56:17,007,werkzeug:WARNING: * Debugger is active!
+2023-12-20 11:56:17,023,werkzeug:INFO: * Debugger PIN: 325-372-629
