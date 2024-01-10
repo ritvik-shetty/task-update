@@ -1,0 +1,98 @@
+2024-01-09 10:13:10,414,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-09 10:13:10,414,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-01-09 10:13:10,450,werkzeug:INFO: * Restarting with stat
+2024-01-09 10:13:11,047,werkzeug:WARNING: * Debugger is active!
+2024-01-09 10:13:11,058,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-01-09 10:13:15,596,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:15] "[33mGET / HTTP/1.1[0m" 404 -
+2024-01-09 10:13:16,112,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-09 10:13:18,507,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:18] "GET /swagger/ HTTP/1.1" 200 -
+2024-01-09 10:13:19,019,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:19] "[36mGET /swagger/index.css HTTP/1.1[0m" 304 -
+2024-01-09 10:13:19,082,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:19] "[36mGET /swagger/swagger-ui-standalone-preset.js HTTP/1.1[0m" 304 -
+2024-01-09 10:13:19,100,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:19] "[36mGET /swagger/swagger-ui.css HTTP/1.1[0m" 304 -
+2024-01-09 10:13:19,240,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:19] "[36mGET /swagger/swagger-ui-bundle.js HTTP/1.1[0m" 304 -
+2024-01-09 10:13:20,059,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:20] "[36mGET /swagger/favicon-32x32.png HTTP/1.1[0m" 304 -
+2024-01-09 10:13:20,282,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:13:20] "[33mGET /static/swagger.json HTTP/1.1[0m" 404 -
+2024-01-09 10:15:36,123,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-09 10:15:36,123,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-01-09 10:15:36,123,werkzeug:INFO: * Restarting with stat
+2024-01-09 10:15:36,634,werkzeug:WARNING: * Debugger is active!
+2024-01-09 10:15:36,634,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-01-09 10:15:41,200,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:15:41,200,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:15:41] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 10:16:30,469,app:INFO:User requested a GET request for employee-id:1 
+2024-01-09 10:16:31,462,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:16:31,464,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:16:31] "GET /employee/1 HTTP/1.1" 200 -
+2024-01-09 10:23:21,229,app:INFO:User requested a GET request for employee-id:1 
+2024-01-09 10:23:21,232,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:23:21,233,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:23:21] "GET /employee/1 HTTP/1.1" 200 -
+2024-01-09 10:23:21,247,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:23:21,247,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:23:21] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 10:25:12,985,app:INFO:User requested a GET request for employee-id:1 
+2024-01-09 10:25:12,985,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:25:12,985,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:25:12] "GET /employee/1 HTTP/1.1" 200 -
+2024-01-09 10:25:13,001,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:25:13,001,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:25:13] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 10:26:27,379,app:INFO:User requested a GET request for employee-id:2 
+2024-01-09 10:26:27,379,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:26:27,383,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:26:27] "GET /employee/2 HTTP/1.1" 200 -
+2024-01-09 10:26:27,397,app:INFO:Data fetched sucessfully from the database
+2024-01-09 10:26:27,398,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 10:26:27] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 11:53:22,788,app:INFO:User requested a POST request
+2024-01-09 11:53:23,594,app:INFO:Data put sucessfully into the database
+2024-01-09 11:53:23,596,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 11:53:23] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-01-09 11:53:49,724,app:INFO:Data fetched sucessfully from the database
+2024-01-09 11:53:49,724,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 11:53:49] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 11:58:34,736,app:INFO:Data fetched sucessfully from the database
+2024-01-09 11:58:34,738,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 11:58:34] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 11:58:40,061,app:INFO:Data fetched sucessfully from the database
+2024-01-09 11:58:40,061,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 11:58:40] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:23:36,444,app:INFO:User requested a POST request
+2024-01-09 12:23:37,279,app:INFO:Data put sucessfully into the database
+2024-01-09 12:23:37,279,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:23:37] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-01-09 12:28:36,872,app:INFO:User requested a DELETE request for employee-id:7
+2024-01-09 12:28:37,485,app:INFO:Data deleted sucessfully from the database
+2024-01-09 12:28:37,486,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:28:37] "DELETE /remove_employee/7 HTTP/1.1" 200 -
+2024-01-09 12:28:47,018,app:INFO:Data fetched sucessfully from the database
+2024-01-09 12:28:47,019,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:28:47] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:30:31,985,app:INFO:Data fetched sucessfully from the database
+2024-01-09 12:30:31,985,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:30:31] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:43:09,900,app:INFO:Data fetched sucessfully from the database
+2024-01-09 12:43:09,900,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:43:09] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:43:19,647,app:INFO:User requested a DELETE request for employee-id:8
+2024-01-09 12:43:19,717,app:INFO:Data deleted sucessfully from the database
+2024-01-09 12:43:19,724,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:43:19] "DELETE /remove_employee/8 HTTP/1.1" 200 -
+2024-01-09 12:43:36,672,app:INFO:Data fetched sucessfully from the database
+2024-01-09 12:43:36,672,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:43:36] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:43:46,004,app:INFO:User requested a POST request
+2024-01-09 12:43:46,234,app:INFO:Data put sucessfully into the database
+2024-01-09 12:43:46,235,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:43:46] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-01-09 12:43:53,846,app:INFO:Data fetched sucessfully from the database
+2024-01-09 12:43:53,846,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:43:53] "GET /list_employees HTTP/1.1" 200 -
+2024-01-09 12:44:03,739,app:INFO:User requested a DELETE request for employee-id:8
+2024-01-09 12:44:03,739,app:INFO:Data is not present in the database
+2024-01-09 12:44:03,739,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 12:44:03] "[33mDELETE /remove_employee/8 HTTP/1.1[0m" 404 -
+2024-01-09 13:01:12,023,app:INFO:Data fetched sucessfully from the database
+2024-01-09 13:01:12,024,werkzeug:INFO:127.0.0.1 - - [09/Jan/2024 13:01:12] "GET /list_employees HTTP/1.1" 200 -
+2024-01-10 10:00:09,688,werkzeug:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-01-10 10:00:09,688,werkzeug:INFO:[33mPress CTRL+C to quit[0m
+2024-01-10 10:00:09,720,werkzeug:INFO: * Restarting with stat
+2024-01-10 10:00:10,296,werkzeug:WARNING: * Debugger is active!
+2024-01-10 10:00:10,328,werkzeug:INFO: * Debugger PIN: 325-372-629
+2024-01-10 10:01:50,498,app:INFO:Data fetched sucessfully from the database
+2024-01-10 10:01:50,498,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:01:50] "GET /list_employees HTTP/1.1" 200 -
+2024-01-10 10:02:00,929,app:INFO:User requested a POST request
+2024-01-10 10:02:02,283,app:INFO:Data put sucessfully into the database
+2024-01-10 10:02:02,284,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:02:02] "[35m[1mPOST /create_employee HTTP/1.1[0m" 201 -
+2024-01-10 10:02:11,187,app:INFO:Data fetched sucessfully from the database
+2024-01-10 10:02:11,187,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:02:11] "GET /list_employees HTTP/1.1" 200 -
+2024-01-10 10:02:51,223,app:INFO:User requested a GET request for employee-id:2 
+2024-01-10 10:02:51,223,app:INFO:Data fetched sucessfully from the database
+2024-01-10 10:02:51,223,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:02:51] "GET /employee/2 HTTP/1.1" 200 -
+2024-01-10 10:02:51,244,app:INFO:Data fetched sucessfully from the database
+2024-01-10 10:02:51,244,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:02:51] "GET /list_employees HTTP/1.1" 200 -
+2024-01-10 10:03:34,548,app:INFO:User requested a DELETE request for employee-id:8
+2024-01-10 10:03:35,046,app:INFO:Data deleted sucessfully from the database
+2024-01-10 10:03:35,046,werkzeug:INFO:127.0.0.1 - - [10/Jan/2024 10:03:35] "DELETE /remove_employee/8 HTTP/1.1" 200 -

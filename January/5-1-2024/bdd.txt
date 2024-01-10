@@ -1,0 +1,38 @@
+. What is Cucumber Framework
+
+It is an opensource software testing framework in which we write testcases which everyone can understand easily i.e non-technical as well. It accepts tests written in Gherkin Language.
+
+
+. Cucmber Test automation Uses files:
+
+It uses mainly two files i.e the feature file and step definition file .
+  The feature file consists of code written in Gherkin language eg plain english
+  The Step Definition file consists the code written by the developers.
+
+
+. Steps in Cucumber:
+
+1) Feature File : It has a .feature extension. The test are written here in plain text (Given When and Then to define test scenarios)
+2) Step Definition: It defines the steps and actions that need to be executed for each step in the feature file i.e the code
+3) Test Runner File: Helps to execute the feature files and coordinates each step of the feature file to corresponding step definition.
+
+
+. example scenario:
+
+Given the user has entered invalid credentials
+When the user clicks the submit button
+Then display the proper validation message
+
+
+. Benefits of BDD:
+
+1)Defining behavior is more important here than tests.
+2)Can be easily written by even non technical person.
+3)Helps in proper communication between the DEV team and testing team.
+4)Provides quality code.
+
+. Limitations of BDD:
+1) Testers must have prior experience in TDD(Test Driven Development).
+2) Requirements must be correctly analyzed.
+
+. Tags in cucmber are used if we have many scenarios in the feature file and we need to keep them in one group.(@ symbol is used)
