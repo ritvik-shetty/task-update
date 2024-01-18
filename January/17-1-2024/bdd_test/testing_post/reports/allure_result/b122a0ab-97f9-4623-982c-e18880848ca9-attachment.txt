@@ -1,0 +1,6 @@
+{
+  "address": "Banerghatta",
+  "city": "Bangalore",
+  "name": "Lewis",
+  "salary": "850820"
+}

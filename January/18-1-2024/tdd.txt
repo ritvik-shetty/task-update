@@ -1,0 +1,25 @@
+# TDD is development of tests before adding a feature in code. First we add the test before adding the functionality in our code, then make sure that the functionality will work.
+
+# Steps:
+    1) Write a failing unit test
+    2) Make the unit test pass
+    3) Repeat
+
+# Benefits of TDD:
+    1) In TDD tests are built before adding any new feature into it. That’s a great benefit of TDD as the entire code has test coverage.
+    2) In TDD one should have a target before adding new functionality i.e before adding any new functionality one should be clear about its outcome.
+    3) The final application will be less buggy as the entire code is covered by the test. 
+
+# Acceptance Test Driven Development:
+    In ATDD a user, business manager and developer all are involved.
+    1) First, they discuss what the user wants in his product.
+    2) The business manager creates sprint stories for the developer.
+    3) The developer writes tests before starting the projects and then starts coding.
+    4) Every product/software is divided into small modules, so the developer codes for the very first module then test it.
+       If the test passes and the code are working as per user requirements, it is moved to the next user story,
+       otherwise some changes are made in coding or program to make the test pass.    
+
+# eg)
+    First we write a test case for get request. When we run the testscript it will through an error as the url doesn't exist
+    Now we implement the API code. 
+    Again we run the testscript. (Repeat)

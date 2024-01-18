@@ -1,0 +1,6 @@
+{
+  "address": "Test address2",
+  "city": "kolkatha",
+  "name": "Charan",
+  "salary": "660820"
+}

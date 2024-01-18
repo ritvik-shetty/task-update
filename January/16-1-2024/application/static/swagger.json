@@ -1,0 +1,306 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "description":"Ritvik",
+      "title": "Employee API",
+      "version": "1.0.0",
+      "contact":{
+        "email":"ritvik.shetty@thoughtfocus.com"
+      },
+      "license": {
+        "name": "MIT",
+        "url": "https://opensource.org/licenses/MIT"
+      }
+    },
+    "securityDefinitions": {
+      "bearerAuth": {
+        "type": "apiKey",
+        "name": "Authorization",
+        "in": "header",
+        "description": "Enter your JWT token in the format 'Bearer <token>'"
+      }
+    },
+    
+    "definitions": {
+        "id": {
+          "type": "object",
+          "properties": {
+            "empid": {
+              "type": "string"
+            }
+          }
+        },
+        "AccessData": {
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "city": {
+              "type": "string"
+            },
+            "salary": {
+              "type": "string"
+            }
+          }
+        },
+        "Authenticate":{
+          "type": "object",
+          "properties": {
+            "username": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            }
+        }
+      
+     }
+    },
+
+     "paths": {
+
+      "/register":{
+        "post": {
+          "summary": "Register User",
+          "tags": [
+            "For Authentication"
+          ],
+          "description": "Regester user into the database",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "Authenticate Data",
+              "in": "body",
+              "description": "JSON data for the api",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Authenticate"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "User Created"
+            },
+            "400": {
+              "description": "Invalid request data"
+            }
+          }
+        }
+      },
+
+      "/login":{
+        "post": {
+          "summary": "Login User to generate JWT Token",
+          "tags": [
+            "For Authentication"
+          ],
+          "description": "Genereate Jwt token",
+          "consumes": [
+            "application/json"
+          ],
+          "produces": [
+            "application/json"
+          ],
+          "parameters": [
+            {
+              "name": "Authenticate Data",
+              "in": "body",
+              "description": "JSON data for the api",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/Authenticate"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "Logged in and JWT henerated"
+            },
+            "400": {
+              "description": "Invalid request data"
+            }
+          }
+        }
+
+      },
+
+      "/list_employees": {
+        "get": {
+          "summary": "Get employee data",
+          "description": "Returns Employee information from DB",
+          "tags": [
+            "Basic Operations"
+          ],
+          "produces": ["application/json"],
+          "responses": {
+            "200": {
+              "description": "Successful operation"
+            }
+          },
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ]
+        }
+      },
+
+      "/create_employee": {
+        "post": {
+          "summary": "Post employee data",
+          "description": "Post data into the database",
+          "tags": [
+            "Basic Operations"
+          ],
+          "consumes": ["application/json"],
+          "produces": ["application/json"],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "parameters": [
+            {
+              "name": "access data",
+              "in": "body",
+              "description": "JSON data for the API",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/AccessData"
+              }
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "User granted access"
+            },
+            "400": {
+              "description": "Invalid request data"
+            }
+          }
+        }
+      },
+      
+      "/employee/{id}": {
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the employee that we want to retrieve",
+            "type": "string"
+          }
+        ],
+        "get": {
+          "summary": "Get employee request with given ID",
+          "tags": ["Basic Operations"],
+          "responses": {
+            "200": {
+              "description": "OK"
+            },
+            "400": {
+              "description": "Failed. Misunderstood Request."
+            },
+            "404": {
+              "description": "Failed. Employee request not found."
+            }
+          },
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ]
+        }
+      },
+
+      "/remove_employee/{id}": {
+        "delete": {
+          "summary": "Delete employee by ID",
+          "tags": ["Basic Operations"],
+          "parameters": [
+            {
+              "in": "path",
+              "name": "id",
+              "required": true,
+              "description": "Employee Request Id",
+              "schema": {
+                "$ref": "#/definitions/id"
+              }
+            }
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "responses": {
+            "204": {
+              "description": "OK"
+            },
+            "400": {
+              "description": "Failed. Misunderstood Request."
+            },
+            "404": {
+              "description": "Failed. Employee Request not found."
+            }
+          }
+        }
+      },
+
+      "/update_employee/{id}": {
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "description": "ID of the employee that we want to update",
+            "type": "string"
+          }
+        ],
+        "put": {
+          "summary": "Edit an employee request by ID",
+          "tags": ["Basic Operations"],
+          "consumes": ["application/json"],
+          "produces": ["application/json"],
+          "parameters": [
+            {
+              "name": "access data",
+              "in": "body",
+              "description": "JSON data for the API",
+              "required": true,
+              "schema": {
+                "$ref": "#/definitions/AccessData"
+              }
+            }
+          ],
+          "security": [
+            {
+              "bearerAuth": []
+            }
+          ],
+          "responses": {
+            "200": {
+              "description": "OK"
+            },
+            "400": {
+              "description": "Failed. Bad post data."
+            }
+          }
+        }
+      }
+      
+    }
+}
+
+
+ 
