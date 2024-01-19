@@ -1,4 +1,5 @@
-# TDD is development of tests before adding a feature in code. First we add the test before adding the functionality in our code, then make sure that the functionality will work.
+# TDD is development of tests before adding a feature in code. 
+  First we add the test before adding the functionality in our code, then make sure that the functionality will work.
 
 # Steps:
     1) Write a failing unit test
@@ -6,9 +7,15 @@
     3) Repeat
 
 # Benefits of TDD:
-    1) In TDD tests are built before adding any new feature into it. That’s a great benefit of TDD as the entire code has test coverage.
+    1) In TDD tests are built before adding any new feature into it which makes it easier to catch bugs early on in the development process
     2) In TDD one should have a target before adding new functionality i.e before adding any new functionality one should be clear about its outcome.
-    3) The final application will be less buggy as the entire code is covered by the test. 
+    3) The final application will be less buggy as the entire code is covered by the test.
+    4) It makes it easier to refactor code without breaking existing functionality. 
+
+# Challenges of TDD:
+    1) It can be time-consuming to write the tests before developing the application.
+    2) It can be challenging to know how to write the tests for certain features or behaviors.
+
 
 # Acceptance Test Driven Development:
     In ATDD a user, business manager and developer all are involved.
@@ -20,6 +27,11 @@
        otherwise some changes are made in coding or program to make the test pass.    
 
 # eg)
-    First we write a test case for get request. When we run the testscript it will through an error as the url doesn't exist
+    First we write a test case for get request. When we run the testscript it will through an error as the url doesn't exist.
     Now we implement the API code. 
     Again we run the testscript. (Repeat)
+
+# The main difference between TDD and conventional programming is that in conventional programming, 
+  the tests are typically written after the code has been written, while in TDD, the tests are written before the code.
+  This approach allows developers to think more carefully about the requirements and design of the code before writing it, 
+  and also makes it easier to catch bugs early on in the development process.
